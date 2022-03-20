@@ -6,14 +6,18 @@
 		initial-scale=1.0'>
 		<title>PageTitle</title>
 		<link rel="stylesheet" href="styles2.css">
-		<script src='sss.js'></script>
 		<script src='jquery-3.6.0.js'></script>
+		<script src='sss.js'></script>
+		<link rel='stylesheet' href='style.css'> 
 	</head>
-	<body>
+<body>
 <button onclick='LoadFromSite()'>Загрузить</button><br>
-<span>Имя: </span><input type='text' id='name'><br>
-<span>Фамилия: </span><input type='text' id='surname'><br>
-<button id='btnnext' onclick='next()'>Далее</button>
-<button id='btnprev' onclick='prev()' disabled>Назад</button> 
+<table id='tbl_all'>
+	<tr>
+	<th>ID</th>
+	<th>Имя</th>
+	<th>Фамилия</th>
+	</tr>
+</table>
 </body>
 </html>  
