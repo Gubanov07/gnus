@@ -7,6 +7,6 @@ ctx.beginPath();
 ctx.lineWidth = 7;
 ctx.strokeStyle = "green";
 
- ctx.arc(100, 100, 75, 0, pi/2, true);
+ctx.arc(150, 150, 75, 0, pi, true);
 ctx.stroke();
 }
