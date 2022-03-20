@@ -13,10 +13,10 @@ function LoadFromSite() {
 
 
 function show_table() {
-	let table = $('#tbl_all')
+		let tbody = $('#tbl_all>tbody')
+	tbody.html('')
 	for (let i=0; i < students.length; i++) {
-			if (i > max_id) {
-			max_id = i
+
 		let tr = $('<tr></tr>')
 
 		let td1 = $('<td>' + students[i].id + '</td>')
@@ -27,7 +27,7 @@ function show_table() {
 		tr.append(td1).append(td2).append(td3).append(td4) 
 
 		table.append(tr)
-		}
+		
 	}
 }
 
