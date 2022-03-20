@@ -5,7 +5,7 @@ let ctx = canva.getContext('2d')
 ctx.beginPath();
 ctx.lineWidth = 7;
 ctx.strokeStyle="green";
-ctx.moveTo(75, 75);
-ctx.quadraticCurveTo(100, 150, 300, 50);
-ctx.stroke(); 
+ctx.moveTo(100, 150);
+ctx.bezierCurveTo(150, 50, 340, 10, 400, 200);
+ctx.stroke();
 }
