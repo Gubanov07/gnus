@@ -1,3 +1,3 @@
 $(document).ready(function(){
-   $("#select1").selectable();
+   $("#sort1").sortable();
 });
